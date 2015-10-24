@@ -14,6 +14,7 @@ EOF
 
 echo "Updating packages"
 apt-get update
+apt-get install build-essential make gcc > /dev/null
 
 echo "Installing GIT"
 apt-get install git -y > /dev/null
