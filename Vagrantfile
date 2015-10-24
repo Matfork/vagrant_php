@@ -70,5 +70,5 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get install -y apache2
   # SHELL
 
-      config.vm.provision "shell", path: "bash_files/init.sh"
+      config.vm.provision "shell", path: "providers/init.sh"
 end
